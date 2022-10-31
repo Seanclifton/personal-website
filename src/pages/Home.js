@@ -3,10 +3,10 @@ import Navbar from '../components/Navbar'
 import './Home.css'
 
 
-const Home = () => {
+const Home = ({handleProjClick, handleContClick}) => {
   return (
       <div className="home">
-        <Navbar />
+        <Navbar handleProjClick={handleProjClick} handleContClick={handleContClick} />
         <div className="nameContainer">
           <div className="typewriter">
             <h2>Sean Clifton</h2>

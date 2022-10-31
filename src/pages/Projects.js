@@ -19,6 +19,7 @@ const Projects = () => {
           appLink={"View App"}
           image={memorygame}
           codehref={'https://github.com/Seanclifton/memory-game'}
+          apphref={'https://seanclifton.github.io/memory-game/'}
         />
         <Card
           title={"Phonebook"}
@@ -29,6 +30,7 @@ const Projects = () => {
           appLink={"View App"}
           image={phonebook}
           codehref={'https://github.com/Seanclifton/Phonebook'}
+          apphref={''}
         />
         <Card
           title={"Portfolio"}
@@ -38,6 +40,8 @@ const Projects = () => {
           codeLink={"View Code"}
           appLink={"View App"}
           image={portfolioimage}
+          codehref={'https://github.com/Seanclifton/personal-website'}
+          apphref={'https://seanclifton.github.io/personal-website/'}
         />
       </div>
     </div>
