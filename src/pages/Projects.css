@@ -1,0 +1,13 @@
+.projects {
+  position:relative;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  border-top: 1px solid white;
+}
+
+.cardContainer {
+  padding-top: 3vw;
+  display: flex;
+}

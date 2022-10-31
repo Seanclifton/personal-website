@@ -1,0 +1,77 @@
+form {
+  /* max-width: 420px; */
+  margin: 5vw;
+}
+
+::placeholder{
+  color: white;
+}
+
+.contact {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  border-top: 1px solid white;
+}
+
+.contact h1 {
+  color: white;
+}
+
+.contactContainer {
+  display: flex;
+}
+
+.contactInfo {
+  width: 30%;
+  margin: 5vw;
+  margin-top: 2vw;
+  font-size: 2vw;
+}
+
+.feedback-input {
+  color: white;
+  font-weight: 500;
+  font-size: 3vw;
+  border-radius: 0.5vw;
+  line-height: 3vw;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  margin-top: 0%;
+}
+
+.feedback-input:focus {
+  border: 2px solid orange;
+}
+
+textarea {
+  height: 25vw;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: black;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: orange;
+}
