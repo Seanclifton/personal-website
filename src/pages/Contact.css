@@ -58,7 +58,7 @@ form {
 }
 
 .feedback-input:focus {
-  border: 2px solid orange;
+  border: 2px solid yellow;
 }
 
 textarea {
@@ -82,5 +82,5 @@ textarea {
   font-weight: 700;
 }
 [type="submit"]:hover {
-  background: orange;
+  background: yellow;
 }
