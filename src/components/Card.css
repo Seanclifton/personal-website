@@ -9,10 +9,13 @@ a {
   width: 20vw;
   height: 30vw;
   margin-left: 9.4vw;
+  margin-right: 9.4vw;
   color: rgb(255, 255, 255);
   box-shadow: 0.1vmax 0.1vmax #000000;
   margin-bottom: 10vw;
   background-size: contain;
+  min-width: 200px;
+  min-height: 300px;
 }
 
 .blur {
@@ -26,16 +29,16 @@ a {
 .title {
   margin-top: 1%;
   position: absolute;
-  font-size: 2.5vw;
+  font-size: 2.5vmax;
   left: 0; 
   right: 0; 
 }
 
 .description {
   position: relative;
-  font-size: 1.3vw;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  font-size: calc(0.2vmax + 70%);
+  margin-left: 2vmax;
+  margin-right: 2vmax;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -48,12 +51,12 @@ a {
 }
 
 .codeLink {
-  font-size: 1.2vw;
+  font-size: 1.2vmax;
   margin-left: 0.9vw;
 }
 
 .appLink {
-  font-size: 1.2vw;
+  font-size: 1.2vmax;
   position: absolute;
   right: 0%;
   margin-right: 1vw;
