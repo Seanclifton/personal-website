@@ -32,11 +32,11 @@ export const Contact = () => {
       <h1>Contact</h1>
       <div className="contactContainer">
         <div className="contactInfo">
-          <p>Email:</p>
+          <h3>Email:</h3>
           <p>sean.clifton.dev@gmail.com</p>
-          <p>LinkedIn:</p>
+          <h3>LinkedIn:</h3>
           <p>linkedin.com/in/seanclifton91</p>
-          <p>Github:</p>
+          <h3>Github:</h3>
           <p>github.com/Seanclifton</p>
         </div>
         <form ref={form} onSubmit={sendEmail}>

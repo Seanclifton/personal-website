@@ -29,6 +29,15 @@ form {
   margin: 5vw;
   margin-top: 2vw;
   font-size: 2vw;
+  text-align: left;
+}
+
+.contactInfo h3 {
+  margin-bottom: 0%;
+}
+
+.contactInfo p {
+  margin-top: 0%;
 }
 
 .feedback-input {

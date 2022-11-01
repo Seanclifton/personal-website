@@ -4,9 +4,6 @@
   background-color: rgb(0, 0, 0);
   height: 8vh;
   min-height: 50px;
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
-  margin-top: 0.5vw;
 }
 
 /* want to bring image and button to front using z index so stars dont pass through it but doing it to image div also brings border of image to front which looks weird */
@@ -44,7 +41,7 @@ button {
 
 button:hover{
   color: black;
-  background-color: white;
+  background-color: orange;
 }
 
 button:active{
