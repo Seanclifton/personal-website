@@ -31,10 +31,10 @@ const Card = ({
         <h5 className="title">{title}</h5>
         <p className="description">{description}</p>
         <div className="linkContainer">
-          <button href={codehref} className="codeLink">
+          <button onClick={() => window.open(codehref, "_blank")} className="codeLink">
             {codeLink}
           </button>
-          <button href={apphref} className="appLink">
+          <button onClick={() => window.open(apphref, "_blank")} className="appLink">
             {appLink}
           </button>
         </div>

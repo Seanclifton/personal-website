@@ -16,12 +16,22 @@
   opacity: 0.9;
   color: white;
   text-align: center;
+  animation: fadeIn 5s;
 }
+
+
 
 .greeting{
   opacity: 0.9;
   color: white;
   text-align: center;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% {opacity: 0;}
+  100% { opacity: 1; }
 }
 
 .typewriter h2 {
@@ -47,3 +57,4 @@
   from, to { border-color: transparent }
   50% { border-color: yellow; }
 }
+
