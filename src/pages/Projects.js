@@ -4,6 +4,7 @@ import "./Projects.css";
 import memorygame from '../images/memorygame.PNG'
 import phonebook from '../images/phonebook.PNG'
 import portfolioimage from '../images/portfolioimage.PNG'
+import notesimage from '../images/Note.PNG'
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
         <Card
           title={"Memory Game"}
           description={
-            "After spending some time in tutorial hell, I decided to let loose and get started on my first project. I pondered ways to include react and whilst playing with code and looking for inspiration, I made a basic card shuffle generator which i evolved over a couple of days in to this memory game."
+            "Test your memory with this fun little memory game. I created this application while practicing CSS and DOM manipulation. This originally started as a basic card shuffler app and evolved in to the memory game we see here today. This was built using HTML, CSS and REACT and then deployed to Github Pages."
           }
           codeLink={"View Code"}
           appLink={"View App"}
@@ -24,24 +25,35 @@ const Projects = () => {
         <Card
           title={"Phonebook"}
           description={
-            "I created this project while learning full stack development through the university of Helsinki's Full Stack Open course. I plan to improve this as my next project as a backend development refresher and to apply my improved CSS skills. Unfortunately i need to migrate this from Heroku so it is not operational at the moment."
+            "This project was created to test the knowledge I had obtained through the University of Helisinki's Full Stack Open course. The front end was created using HTML, CSS and REACT. The backend uses NODE.js, Express and MongoDB. This is currently deployed with Heroku."
           }
           codeLink={"View Code"}
           appLink={"View App"}
           image={phonebook}
           codehref={'https://github.com/Seanclifton/Phonebook'}
-          apphref={''}
+          apphref={'https://fathomless-tor-81639.herokuapp.com/'}
         />
         <Card
           title={"Portfolio"}
           description={
-            "The web page which you are looking at right now! I wasnt going to display this originally but working on something like this really improved my UI development skills and taught me a lot about the quirks of CSS. As is the case with most personal websites, this will be an on going project which i hope to grow and improve over the years."
+            "The web page which you are looking at right now! I wasnt going to display this originally but working on something like this really improved my UI development skills and taught me a lot about the quirks of CSS. As is the case with most personal websites, this will be an on going project which i hope to grow and improve."
           }
           codeLink={"View Code"}
           appLink={"View App"}
           image={portfolioimage}
           codehref={'https://github.com/Seanclifton/personal-website'}
           apphref={'https://seanclifton.github.io/personal-website/'}
+        />
+        <Card
+          title={"Notes"}
+          description={
+            "Oh yes, the clichè notes app. This was one of the first full stack applications that I pieced together using the MERN stack. I plan to make a few more small improvements to this to improve the user interface. The front end was created using HTML, CSS and REACT. The backend uses NODE.js, Express and MongoDB. This is currently deployed with Heroku. "
+          }
+          codeLink={"View Code"}
+          appLink={"View App"}
+          image={notesimage}
+          codehref={'https://github.com/Seanclifton/Notes'}
+          apphref={'https://dazzling-great-basin-54374.herokuapp.com/'}
         />
       </div>
     </div>
